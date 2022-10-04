@@ -13,11 +13,12 @@
 </head>
 
 <body>
+    <!--Begin heading section-->
     <header>
         <h1> Win a £25 Voucher</h1>
         <p>Complete our survey for your chance to win!</p>
     </header>
-
+<!--Navigation bar for easier user experience-->
     <nav>
         <a href="#home" aria-label="Go to the Top of the page">Home</a>
                     <a href="#menu" aria-label="What kind of treats can you get?">Menu</a>
@@ -27,8 +28,9 @@
         </nav>
      
             <fieldset>
-                <legend>Your Details</legend>
             
+                <legend>Your Details</legend>
+            <!--Detail entry for competiton-->
                 <div>
                     <label for="name-field">Name</label>
                     <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
@@ -38,6 +40,8 @@
                     <input id="email-field" type="email" name="email" placeholder="Your Email" required>
                 </div>
 
+
+                <!--Required field for age-->
                 <label for="age">Age</label>
     <select id="age" name="age" required>
         <option value="under-18">Under 18</option>
@@ -53,6 +57,7 @@
 <fieldset>
     <legend>Our products</legend>
         <div>
+            <!--Required field for favourite milkshake of choice-->
             <label for="fav-milkshake">What is your favourite Milkshake?</label>
             <input id="fav-milkshake" list="milkshake" name="fav-milkshake" required>
         <datalist id="milkshake">
@@ -65,7 +70,7 @@
     </div>
 
     <p>How often do you treat yourself to a milkshake?</p>
-
+<!--Required entry-->
             <input id="0-2shakes-radio" name="shakes-a-day" value="0-2shakes" type="radio" required>
 			<label for="0-2cups-radio">0 to 2 shakes</label>
 
@@ -79,7 +84,7 @@
 			<label for="9plus-shakes-radio">9 or more shakes</label>
 
             <p>How often do you visit Sweets N Treats?</p>
-
+<!--Required entry-->
             <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
 			<label for="once-a-week">Once a week</label>
 
@@ -93,8 +98,9 @@
 			<label for="ocassionally">Ocassionally</label>
         
         <p>Which of our Sweets N Treats cupcakes do you love?</p>
+        <!--Required entry-->
             <div>
-				<input type="checkbox" id="red-velvet-checkbox" name="red-velvet">
+				<input type="checkbox" id="red-velvet-checkbox" name="red-velvet" required>
 				<label for="red-velvet-checkbox">Red Velvet Cupcake</label>
 			</div>
 			<div>
@@ -183,7 +189,7 @@
             </p>
         </div>
 
-        <input type="submit" value="Enter Prize Draw">
+            <input type="submit" value="Enter Prize Draw">
             <input type="reset" value="Reset Entry">
     </body>
 </html>
