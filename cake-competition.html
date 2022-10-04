@@ -39,5 +39,31 @@
                     <input id="email-field" type="email" name="email" placeholder="Your Email" required>
                 </div>
 
+                <label for="age">Age</label>
+    <select id="age" name="age" required>
+        <option value="under-18">Under 18</option>
+        <option value="18-29s">18-29</option>
+        <option value="30s">30-39</option>
+        <option value="40s">40-49</option>
+        <option value="50s">50-59</option>
+        <option value="60s">60+</option>
+        <option value="70+">70+</option>
+    </select>
+</fieldset>
+
+<fieldset>
+    <legend>Our products</legend>
+        <div>
+            <label for="fav-milkshake">What is your favourite Milkshake?</label>
+            <input id="fav-milkshake" list="milkshake" name="fav-milkshake" required>
+        <datalist id="milkshake">
+            <option value="Raspberry-Ripple">
+            <option value="Milky-Bar">
+            <option value="Kinder-Bueno">
+            <option value="Malteaser">
+            <option value="Ferrero-Rocher">
+        </datalist>
+    </div>
+
     </body>
 </html>
