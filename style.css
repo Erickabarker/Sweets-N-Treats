@@ -1,10 +1,17 @@
 body {
     background-color: #F8FAFD;
-    font-family:sans-serif, Verdana, sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 
 header{
     text-align: center;    
+}
+
+.heading{
+        font-size:250%;
+}
+p > h1{
+    font-size:150%;
 }
 
 .text-center{
@@ -22,6 +29,7 @@ header{
 
 .welcome{
     text-align:center;
+    font-size:200%;
 }
 
 #offers{
@@ -29,7 +37,19 @@ header{
     margin: 20px;   
     font-size:200%;
     color: #F8FAFD;
+    text-align: center;
     
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.taupe-background{
+    background-color:#B4AAA9;
+}
+nav{
+    display: block;
+    padding:1rem;
+    font-size:30px;
 }
 /*
 #image{
