@@ -9,7 +9,12 @@ header{
 
 .heading{
         font-size:250%;
-}
+        font-weight: bold;
+        background: url('https://images.pexels.com/photos/7110090/pexels-photo-7110090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        margin:0px;
+        padding-top: 10px;
+        padding-bottom:10px;
+    }
 p > h1{
     font-size:150%;
 }
