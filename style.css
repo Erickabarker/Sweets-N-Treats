@@ -126,3 +126,11 @@ h2 {
 li{
     margin:10px 0px 0px 10px;
 }
+
+footer{
+    background-color:#B7A1A6;
+    margin:50px;
+    padding:30px;
+    font-size:25px;
+
+}
