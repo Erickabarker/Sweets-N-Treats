@@ -34,17 +34,17 @@ p > h1{
 
 .welcome{
     text-align:center;
-    font-size:200%;
+    font-size:50px;
 }
 .about{
     text-align: center;
     border-radius: 30px;
     padding:30px;
     margin:50px 200px 50px 200px ;
-    background-color:#FFF0DF;
+    background-color:#c7b0aea6;
 }
 .info{
-    color: #B4AAA9;
+    color: #fffdfd;
     border-radius:30px;
     margin: 20px;   
     font-size:200%;
@@ -68,9 +68,10 @@ nav{
     border-radius: 30px;
     padding:30px;
     margin:50px 200px 50px 200px ;
-     background-color:#B4AAA9;
+    background-color:#B4AAA9;
 
-}#offers{
+}
+#offers{
     border-radius:30px;
     margin: 20px;   
     font-size:200%;
@@ -83,24 +84,24 @@ h2 {
 }
 #milkshake{
     background-color:#FADCDC;
-    
+    position:relative;
+    right:80px
+   
 }
 #cupcake{
     background-color:#B7A1A6;
     position:relative
-    right:80px;
-
 }
 
 #tray-bake{
     background-color:#E6D5E0;
-    position:relative
-}
-
-.text-center{
-    text-align: center;
     position: relative;
     left:80px;
+}
+   
+.text-center{
+    text-align: center;
+    
 }
 
 .text-white{
@@ -117,4 +118,11 @@ h2 {
 	width: 33%;
 	margin: 1rem 0;
 	display: inline-block;
+    font-size:150%;
+}
+.strong{
+    font-weight:bold;
+}
+li{
+    margin:10px 0px 0px 10px;
 }
