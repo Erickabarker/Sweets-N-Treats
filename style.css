@@ -3,8 +3,12 @@ body {
     font-family:sans-serif, Verdana, sans-serif;
 }
 
-h1{
-    
+header{
+    text-align: center;    
+}
+
+.text-center{
+    text-align:center;
 }
 #success{
     text-transform: uppercase;
