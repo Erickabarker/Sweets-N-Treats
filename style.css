@@ -193,6 +193,9 @@ fieldset{
     border: 4px dotted #B4AAA9;
     overflow: scroll;
 }
+.acceptterms{
+    padding-top:15px;
+}
 form{
     width:70%;
     padding:20px;
