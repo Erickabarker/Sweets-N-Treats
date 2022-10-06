@@ -153,7 +153,7 @@ th, td{
     
 }
 
-.details{
+.contact-details{
     height:250px;
     width:350px;
     padding:40px;
@@ -172,4 +172,25 @@ th, td{
     border-color: #E6D5E0;
     border-width: 5px;
     
+}
+.entry-details{
+    padding:10px;
+    height:fit-content;
+    width:auto;
+    font-size:20px;
+}
+fieldset{
+    border:dotted 4px #B7A1A6 ;
+    height: auto;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 1.5rem 0 0 15px;
+}
+#terms{
+    height: 200px;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 1.5rem 0 0 15px;
+    border: 4px dotted #B4AAA9;
+    overflow: scroll;
 }

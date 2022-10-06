@@ -27,10 +27,10 @@
                     <a href="#contact" aria-label="Go to contact information">Contact</a>
                     <a href="cake-competition.html" aria-label="Fill in our survey for your chance to win free £25 spend">Win Free Cake</a>
         </nav>
-     
-            <fieldset>
+     <div class="entry-details">
+            <fieldset class="text-center">
             
-                <legend>Your Details</legend>
+                <legend class="strong">Your Details</legend>
             <!--Detail entry for competiton-->
                 <div>
                     <label for="name-field">Name</label>
@@ -40,11 +40,11 @@
                     <label for="email-field">Email</label>
                     <input id="email-field" type="email" name="email" placeholder="Your Email" required>
                 </div>
-
-
+          
                 <!--Required field for age-->
-                <label for="age">Age</label>
-    <select id="age" name="age" required>
+                <label for="age" class="strong">Age</label>
+        
+        <select id="age" name="age" required>
         <option value="under-18">Under 18</option>
         <option value="18-29s">18-29</option>
         <option value="30s">30-39</option>
@@ -56,7 +56,7 @@
 </fieldset>
 
 <fieldset>
-    <legend>Our products</legend>
+    <legend class="strong">Our products</legend>
         <div>
             <!--Required field for favourite milkshake of choice-->
             <label for="fav-milkshake">What is your favourite Milkshake?</label>
@@ -70,7 +70,7 @@
         </datalist>
     </div>
 
-    <p>How often do you treat yourself to a milkshake?</p>
+    <p class="strong">How often do you treat yourself to a milkshake?</p>
 <!--Required entry-->
             <input id="0-2shakes-radio" name="shakes-a-day" value="0-2shakes" type="radio" required>
 			<label for="0-2cups-radio">0 to 2 shakes</label>
@@ -84,7 +84,7 @@
 			<input id="9plus-shakes-radio" name="shakes-a-day" value="9shakes-cups" type="radio" required>
 			<label for="9plus-shakes-radio">9 or more shakes</label>
 
-            <p>How often do you visit Sweets N Treats?</p>
+            <p class="strong">How often do you visit Sweets N Treats?</p>
 <!--Required entry-->
             <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
 			<label for="once-a-week">Once a week</label>
@@ -98,7 +98,7 @@
 			<input id="ocassionally" name="visit-frequency" value="ocassionally" type="radio" required>
 			<label for="ocassionally">Ocassionally</label>
         
-        <p>Which of our Sweets N Treats cupcakes do you love?</p>
+        <p class="strong">Which of our Sweets N Treats cupcakes do you love?</p>
         <!--Required entry-->
             <div>
 				<input type="checkbox" id="red-velvet-checkbox" name="red-velvet" required>
@@ -127,20 +127,20 @@
         </fieldset>
 
         <fieldset>
-			<legend>We would love your feedback</legend>
+			<legend class="strong">We would love your feedback</legend>
 			<label for="feedback">How can we improve your experience with us?</label>
 			<br>
 			<textarea id="feedback" rows="5" cols="90" name="feedback"></textarea>
 		</fieldset>
-
+ 
         <div id="terms">
-            <h5>OFFICIAL RULES FOR SWEETS N TREATS PRIZE DRAW</h5>
+            <h5 class="strong">OFFICIAL RULES FOR SWEETS N TREATS PRIZE DRAW</h5>
             <p>NO PURCHASE NECESSARY TO ENTER OR WIN. A purchase does not improve chances
             of winning. Subject to all federal, state and local laws and regulations. VOID WHERE
             PROHIBITED OR RESTRICTED</p>
             <p><span>Sponsor:</span>Sweets N Treats, Arbroath Avenue, Glasgow</p>
 
-            <p><span>Eligibility to Enter</span>
+            <p><span class="strong">Eligibility to Enter</span>
                 The prize draw is open to entrants over 18 years of age and employed within the animal technology and scientific research sector 
                 (TLC staff members are excluded from the draw).                    
                 In entering the prize draw, you confirm that you are eligible to do so and eligible to claim any                     
@@ -148,13 +148,13 @@
                 A maximum of one entry per individual is permitted.                    
                 TLC will not accept responsibility if contact details provided are incomplete or inaccurate. </p>
 
-            <p><span>Promotion Period</span>
+            <p><span class="strong">Promotion Period</span>
                 Entrants may participate in the Promotion between 00:01am GMT on
                 January 1, 2022 through 23:01AM GMT on October 31, 2022 (“Promotion Period”). Sponsor's
                 server is the official clock for this Promotion.
             </p>
 
-            <p><span>Release</span>
+            <p><span class="strong">Release</span>
                 BY ENTERING THE PROMOTION, ENTRANTS RELEASE AND HOLD HARMLESS
                 SPONSOR AND ITS PARENTS, SUBSIDIARIES, AND AFFILIATED COMPANIES, AND
                 EACH OF THEIR DIRECTORS, OFFICERS, EMPLOYEES, REPRESENTATIVES,
@@ -170,7 +170,7 @@
                 CONTRIBUTION, OR ANY OTHER THEORY, TO THE EXTENT PERMITTED BY LAW.
             </p>
 
-            <p><span>Winner Notification</span>
+            <p><span class="strong">Winner Notification</span>
                 The prize will be a £25 voucher spend. TLCs use of particular brands as prizes does not imply any affiliation with or endorsement of 
                 such brands. The winner will be drawn at random. The prize is non-exchangeable, non-transferable and no cash alternatives will be offered. 
                 We reserve the right to substitute prizes with another prize of equal or higher value if circumstances beyond our control make it 
@@ -181,7 +181,7 @@
                 notify a new winner. 
             </p>
 
-            <p><span>Rules: </span>
+            <p><span class="strong">Rules: </span>
                 By entering the Promotion, entrant agrees to abide by the terms and conditions of these
                 Official Rules, which are final on all matters pertaining to the Promotion, and warrants that
                 he/she is eligible to participate in the Promotion. Submission of entry constitutes entrant’s
@@ -194,7 +194,8 @@
             <input type="submit" value="Enter Prize Draw">
             <input type="reset" value="Reset Entry">
     </form>
-            <footer class="text-center">
+ </div>
+            <footer class="text-center strong">
                 <span>Find Us On:</span>
 
                 <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
