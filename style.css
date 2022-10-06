@@ -127,10 +127,9 @@ li{
 
 footer{
     background-color:#B7A1A6;
-    margin:20vh;
     padding:10px;
     font-size:25px;
-
+    height: auto;
 }
 th, td{
     padding:15px 20px 20px 20px;
@@ -203,6 +202,8 @@ form{
 #feedback{
     padding:15px;
     border: dotted #B7A1A6 2px;
+    height: auto;
+    width: 90%;
 }
 input[type=submit]{
     margin-top:75px;
