@@ -1,147 +1,150 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head>
-    <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Complete our survey to win a £25 free spend.">
-	<meta name="keywords" content="Cupcakes, Milkshakes, Pet friendly cafe, free wifi, Glasgow">
-	<meta name="author" content="Sweets N Treats">
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Complete our survey to win a £25 free spend.">
+	    <meta name="keywords" content="Cupcakes, Milkshakes, Pet friendly cafe, free wifi, Glasgow">
+	    <meta name="author" content="Sweets N Treats">
 
-    <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="style.css">
 
-<title>Cake Competition</title>
-</head>
+        <title>Cake Competition</title>
+    </head>
 
-<body>
-    <!--Begin heading section-->
-    <header class="heading">
-        <h1> Win a £25 Voucher</h1>
-        <p>Complete our survey for your chance to win!</p>
-    </header>
-<!--Navigation bar for easier user experience-->
-    <nav class="text-center taupe-background text-uppercase">
-        <a href="#home" aria-label="Go to the Top of the page">Home</a>
+    <body>
+
+        <!--Begin heading section-->
+            <header class="heading">
+                <h1> Win a £25 Voucher</h1>
+                    <p>Complete our survey for your chance to win!</p>
+            </header>
+
+        <!--Navigation bar for easier user experience-->
+            <nav class="text-center taupe-background text-uppercase">
+
+                    <a href="#home" aria-label="Go to the Top of the page">Home</a>
                     <a href="#menu" aria-label="What kind of treats can you get?">Menu</a>
                     <a href="#aboutus" aria-label="Go to about us">About Us</a>
                     <a href="#contact" aria-label="Go to contact information">Contact</a>
                     <a href="cake-competition.html" aria-label="Fill in our survey for your chance to win free £25 spend">Win Free Cake</a>
-        </nav>
+            </nav>
 
         <form action="success.html" method="GET">
             
-     <div class="entry-details text-center">
+        <div class="entry-details text-center">
             <fieldset class="text-center">
             
-                <legend class="strong">Your Details</legend>
-            <!--Detail entry for competiton-->
-                <div>
-                    <label for="name-field">Name</label>
-                    <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
-                </div>
-                <div>
-                    <label for="email-field">Email</label>
-                    <input id="email-field" type="email" name="email" placeholder="Your Email" required>
-                </div>
-          
+            <legend class="strong">Your Details</legend>
+                <!--Detail entry for competiton-->
+        <div>
+                <label for="name-field">Name</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
+        </div>
+        <div>
+                <label for="email-field">Email</label>
+                <input id="email-field" type="email" name="email" placeholder="Your Email" required>
+        </div>          
                 <!--Required field for age-->
                 <label for="age" class="strong">Age</label>
         
-        <select id="age" name="age" required>
-        <option value="under-18">Under 18</option>
-        <option value="18-29s">18-29</option>
-        <option value="30s">30-39</option>
-        <option value="40s">40-49</option>
-        <option value="50s">50-59</option>
-        <option value="60s">60+</option>
-        <option value="70+">70+</option>
-    </select>
-</fieldset>
+                    <select id="age" name="age" required>
+                    <option value="under-18">Under 18</option>
+                    <option value="18-29s">18-29</option>
+                    <option value="30s">30-39</option>
+                    <option value="40s">40-49</option>
+                    <option value="50s">50-59</option>
+                    <option value="60s">60+</option>
+                    <option value="70+">70+</option>
+            </fieldset>
 
-<fieldset>
-    <legend class="strong">Our products</legend>
+            <fieldset>
+                <legend class="strong">Our products</legend>
         <div>
-            <!--Required field for favourite milkshake of choice-->
-            <label for="fav-milkshake">What is your favourite Milkshake?</label>
-            <input id="fav-milkshake" list="milkshake" name="fav-milkshake" required>
-        <datalist id="milkshake">
-            <option value="Raspberry-Ripple">
-            <option value="Milky-Bar">
-            <option value="Kinder-Bueno">
-            <option value="Malteaser">
-            <option value="Ferrero-Rocher">
-        </datalist>
-    </div>
+                <!--Required field for favourite milkshake of choice-->
+                    <label for="fav-milkshake">What is your favourite Milkshake?</label>
+                    <input id="fav-milkshake" list="milkshake" name="fav-milkshake" required>
 
-    <p class="strong">How often do you treat yourself to a milkshake?</p>
-<!--Required entry-->
-            <input id="0-2shakes-radio" name="shakes-a-day" value="0-2shakes" type="radio" required>
-			<label for="0-2cups-radio">0 to 2 shakes</label>
+            <datalist id="milkshake">
+                <option value="Raspberry-Ripple">
+                <option value="Milky-Bar">
+                <option value="Kinder-Bueno">
+                <option value="Malteaser">
+                <option value="Ferrero-Rocher">
+            </datalist>
+        </div>
 
-			<input id="3-5cups-radio" name="shakes-a-day" value="3-5shakes" type="radio" required>
-			<label for="3-5shakes-radio">3 to 5 shakes</label>
+                <p class="strong">How often do you treat yourself to a milkshake?</p>
+        <!--Required entry-->
+                    <input id="0-2shakes-radio" name="shakes-a-day" value="0-2shakes" type="radio" required>
+			        <label for="0-2cups-radio">0 to 2 shakes</label>
 
-			<input id="6-8shakes-radio" name="shakes-a-day" value="6-8shakes" type="radio" required>
-			<label for="6-8shakes-radio">6 to 8 shakes</label>
+			        <input id="3-5cups-radio" name="shakes-a-day" value="3-5shakes" type="radio" required>
+			        <label for="3-5shakes-radio">3 to 5 shakes</label>
 
-			<input id="9plus-shakes-radio" name="shakes-a-day" value="9shakes-cups" type="radio" required>
-			<label for="9plus-shakes-radio">9 or more shakes</label>
+			        <input id="6-8shakes-radio" name="shakes-a-day" value="6-8shakes" type="radio" required>
+			        <label for="6-8shakes-radio">6 to 8 shakes</label>
 
-            <p class="strong">How often do you visit Sweets N Treats?</p>
-<!--Required entry-->
-            <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
-			<label for="once-a-week">Once a week</label>
+			        <input id="9plus-shakes-radio" name="shakes-a-day" value="9shakes-cups" type="radio" required>
+			        <label for="9plus-shakes-radio">9 or more shakes</label>
 
-			<input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" required>
-			<label for="twice-a-week">Twice a week</label>
+                <p class="strong">How often do you visit Sweets N Treats?</p>
+        <!--Required entry-->
+                    <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
+			        <label for="once-a-week">Once a week</label>
 
-			<input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight" type="radio" required>
-			<label for="once-a-fortnight">Once a fortnight</label>
+			        <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" required>
+			        <label for="twice-a-week">Twice a week</label>
 
-			<input id="ocassionally" name="visit-frequency" value="ocassionally" type="radio" required>
-			<label for="ocassionally">Ocassionally</label>
+			        <input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight" type="radio" required>
+			        <label for="once-a-fortnight">Once a fortnight</label>
+
+			        <input id="ocassionally" name="visit-frequency" value="ocassionally" type="radio" required>
+			        <label for="ocassionally">Ocassionally</label>
         
-        <p class="strong">Which of our Sweets N Treats cupcakes do you love?</p>
+                <p class="strong">Which of our Sweets N Treats cupcakes do you love?</p>
        
-            <div>
-				<input type="checkbox" id="red-velvet-checkbox" name="red-velvet">
-				<label for="red-velvet-checkbox">Red Velvet Cupcake</label>
-			</div>
-			<div>
-				<input type="checkbox" id="cookies-checkbox" name="cookies">
-				<label for="cookies-checkbox">Cookies</label>
-			</div>
-			<div>
-				<input type="checkbox" id="chocolate-fudge-checkbox" name="chocolate-fudge">
-				<label for="chocolate-fudge-checkbox">Chocolate Fudge Cupcake</label>
-			</div>
-			<div>
-				<input type="checkbox" id="cookies-n-cream-checkbox" name="cookies-n-cream">
-				<label for="cookies-n-cream-checkbox">Cookies n Cream Cupcake</label>
-			</div>
-			<div>
-				<input type="checkbox" id="biscoff-checkbox" name="biscoff">
-				<label for="biscoff-checkbox">Biscoff</label>
-			</div>
-            <div>
-				<input type="checkbox" id="chocolate-orange-checkbox" name="chocolate-orange">
-				<label for="chocolate-orange-checkbox">Chocolate Orange Cupcake</label>
-			</div>
+        <div>
+				    <input type="checkbox" id="red-velvet-checkbox" name="red-velvet">
+				    <label for="red-velvet-checkbox">Red Velvet Cupcake</label>
+		</div>
+		<div>
+		    		<input type="checkbox" id="cookies-checkbox" name="cookies">
+			    	<label for="cookies-checkbox">Cookies</label>
+		</div>
+		<div>
+		    		<input type="checkbox" id="chocolate-fudge-checkbox" name="chocolate-fudge">
+			    	<label for="chocolate-fudge-checkbox">Chocolate Fudge Cupcake</label>
+		</div>
+		<div>
+		    		<input type="checkbox" id="cookies-n-cream-checkbox" name="cookies-n-cream">
+			    	<label for="cookies-n-cream-checkbox">Cookies n Cream Cupcake</label>
+        </div>
+		<div>
+				    <input type="checkbox" id="biscoff-checkbox" name="biscoff">
+				    <label for="biscoff-checkbox">Biscoff</label>
+		</div>
+        <div>
+				    <input type="checkbox" id="chocolate-orange-checkbox" name="chocolate-orange">
+				    <label for="chocolate-orange-checkbox">Chocolate Orange Cupcake</label>
+		</div>
         </fieldset>
 
         <fieldset>
-			<legend class="strong">We would love your feedback</legend>
-			<label for="feedback">How can we improve your experience with us?</label>
-			<br>
-			<textarea id="feedback" rows="4" cols="70" name="feedback" placeholder="Your Feedback"></textarea>
+			    <legend class="strong">We would love your feedback</legend>
+			        <label for="feedback">How can we improve your experience with us?</label>
+			    <br>
+			
+                    <textarea id="feedback" rows="4" cols="70" name="feedback" placeholder="Your Feedback"></textarea>
 		</fieldset>
  
         <div id="terms">
             <h5 class="strong">OFFICIAL RULES FOR SWEETS N TREATS PRIZE DRAW</h5>
-            <p>NO PURCHASE NECESSARY TO ENTER OR WIN. A purchase does not improve chances
-            of winning. Subject to all federal, state and local laws and regulations. VOID WHERE
-            PROHIBITED OR RESTRICTED</p>
-            <p><span>Sponsor:</span>Sweets N Treats, Arbroath Avenue, Glasgow</p>
+                <p>NO PURCHASE NECESSARY TO ENTER OR WIN. A purchase does not improve chances
+                of winning. Subject to all federal, state and local laws and regulations. VOID WHERE
+                PROHIBITED OR RESTRICTED</p>
+                    <p><span>Sponsor:</span>Sweets N Treats, Arbroath Avenue, Glasgow</p>
 
             <p><span class="strong">Eligibility to Enter:</span>
                 The prize draw is open to entrants over 18 years of age and employed within the animal technology and scientific research sector 
@@ -201,7 +204,8 @@
             </label>
             
         </div>    
-         <br>
+            <br>
+            
             <input type="submit" value="Enter Prize Draw">
             <br>
             <input type="reset" value="Reset Entry">
