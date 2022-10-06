@@ -113,10 +113,14 @@ h2 {
 .menu-box {
 	width: auto;
     height: auto;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
     font-size: 150%;
     margin: auto;
     padding: 20px;
+    flex-direction:column;
 }
 .strong{
     font-weight:bold;
@@ -135,10 +139,9 @@ th, td{
     padding:15px 20px 20px 20px;
 }
 .contact{
-    justify-content:space-evenly;
-    align-items: center;
-    display:flex; 
+    display: flex;
     text-align: center;
+    justify-content: space-around;
 }
 .opening {
     height:250px;
