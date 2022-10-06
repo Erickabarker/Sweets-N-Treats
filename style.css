@@ -194,3 +194,13 @@ fieldset{
     border: 4px dotted #B4AAA9;
     overflow: scroll;
 }
+form{
+    width:70%;
+    padding:20px;
+    margin: 20px auto;
+    background-color:#ffffff;
+    }
+#feedback{
+    padding:15px;
+    border: dotted #B7A1A6 2px;
+}
