@@ -141,7 +141,11 @@ th, td{
 .contact{
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: stretch;
 }
 .opening {
     height:250px;
