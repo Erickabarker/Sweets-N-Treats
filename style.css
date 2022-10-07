@@ -85,18 +85,15 @@ h2 {
 }
 #milkshake{
     background-color:#FADCDC;
-    position:relative;
     right:80px
    
 }
 #cupcake{
     background-color:#B7A1A6;
-    position:relative
 }
 
 #tray-bake{
     background-color:#E6D5E0;
-    position: relative;
     left:80px;
 }
    
@@ -148,10 +145,10 @@ th, td{
     align-items: stretch;
 }
 .opening {
-    height:250px;
-    width:350px;
-    padding:40px;
-    font-size:25px;
+    height:320px;
+    width:300px;
+    padding:30px;
+    font-size:22px;
     border:solid;
     border-color: #E6D5E0;
     text-transform:uppercase;
@@ -162,7 +159,7 @@ th, td{
 .contact-details{
     height:250px;
     width:350px;
-    padding:40px;
+    padding:30px;
     font-size:25px;
     border:solid;
     border-color: #9f7992;
@@ -172,7 +169,7 @@ th, td{
 .address{
     height:250px;
     width:350px;
-    padding:40px;
+    padding:30px;
     font-size:25px; 
     border:solid;
     border-color: #E6D5E0;
