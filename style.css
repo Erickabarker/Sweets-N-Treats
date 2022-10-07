@@ -26,12 +26,14 @@ p > h1{
 }
 #success{
     text-transform: uppercase;
-    margin:50px;
-    padding:150px;
-    color:#F8FAFD;
-    font-size:200%;
-    text-align:center;
-    background: url('https://images.pexels.com/photos/10117827/pexels-photo-10117827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')center center / cover no-repeat fixed;
+    margin: 0 auto;
+    padding: 20%;
+    font-size: 150%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.pexels.com/photos/796605/pexels-photo-796605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
 .welcome{
