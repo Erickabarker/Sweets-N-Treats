@@ -1,6 +1,8 @@
 body {
     background-color: #F8FAFD;
     font-family:'Courier New', Courier, monospace;
+    margin: 0 auto;
+    padding:20px;
 }
 
 header{
@@ -69,6 +71,9 @@ nav{
     padding:30px;
     margin:auto;
     background-color:#B4AAA9;
+    background-image: url('https://images.pexels.com/photos/6174874/pexels-photo-6174874.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-position: center;
+    background-blend-mode: soft-light;
 
 }
 #offers{
@@ -203,7 +208,7 @@ fieldset{
 form{
     width:70%;
     padding:20px;
-    margin: 20px auto;
+    margin: 0 auto;
     background-color:#ffffff;
     }
 #feedback{
