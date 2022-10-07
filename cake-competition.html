@@ -34,16 +34,16 @@
         <form action="success.html" method="GET">
             
         <div class="entry-details text-center">
-            <fieldset class="text-center">
+    <fieldset>
             
-            <legend class="strong">Your Details</legend>
+            <legend><h3 class="strong text-center">Your Details</h3></legend>
                 <!--Detail entry for competiton-->
         <div>
-                <label for="name-field">Name</label>
+                <label for="name-field" class="strong">Name</label>
                 <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
         </div>
         <div>
-                <label for="email-field">Email</label>
+                <label for="email-field" class="strong">Email</label>
                 <input id="email-field" type="email" name="email" placeholder="Your Email" required>
         </div>          
                 <!--Required field for age-->
@@ -57,12 +57,15 @@
                     <option value="50s">50-59</option>
                     <option value="60s">60+</option>
                     <option value="70+">70+</option>
-            </fieldset>
-    
-            <fieldset>
-                <legend class="strong">Our products</legend>
-        <div>
+                    </select>
+        </div>
+        </div>
+        <fieldset>
+        
+               <legend><h3 class="strong">Our products</h3></legend>
+        
                 <!--Required field for favourite milkshake of choice-->
+            <div>  
                     <label for="fav-milkshake">What is your favourite Milkshake?</label>
                     <input id="fav-milkshake" list="milkshake" name="fav-milkshake" required>
 
@@ -74,7 +77,7 @@
                 <option value="Ferrero-Rocher">
             </datalist>
         </div>
-
+    
                 <p class="strong">How often do you treat yourself to a milkshake?</p>
         <!--Required entry-->
                     <input id="0-2shakes-radio" name="shakes-a-day" value="0-2shakes" type="radio" required>
@@ -129,10 +132,10 @@
 				    <input type="checkbox" id="chocolate-orange-checkbox" name="chocolate-orange">
 				    <label for="chocolate-orange-checkbox">Chocolate Orange Cupcake</label>
 		</div>
-        </fieldset>
+    </fieldset>
     
         <fieldset>
-			    <legend class="strong">We would love your feedback</legend>
+			    <legend><h3 class="strong">We would love your feedback</h3></legend>
 			        <label for="feedback">How can we improve your experience with us?</label>
 			    <br>
 			
