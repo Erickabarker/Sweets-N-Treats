@@ -32,4 +32,15 @@ Sweets N Treats is also a pet friendly enviroment with plenty of fresh water sta
 
 I used [Canva](https://www.canva.com/colors/color-palette-generator/) to choose a colour scheme that would be easy to read and contrasting with background images. 
 
+![Color Scheme](images/colour chart.png)
 
+### Typography
+
+Courier New, Courier, monospace is used as it is easy to read and inkeeping with simplistic design in which the website is based on. 
+
+### Wireframes
+
+For each of the sections in the scrolling webpage I used balsamiq to create wireframes.
+
+- I Phone
+![iphone wireframe]()
