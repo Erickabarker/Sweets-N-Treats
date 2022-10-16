@@ -3,10 +3,8 @@ Sweets N Treats is aimed at anyone who is looking for a relaxing place to reset 
 
 Sweets N Treats is also a pet friendly enviroment with plenty of fresh water stations and treats avaliable for your furry friends. 
 
-![Banner Image]()
 ## Live Link
-[Responsive Design ]![Am I Responsive screenshot](https://user-images.githubusercontent.com/110427318/196045618-ac98de30-be08-466b-bf13-141743c2578a.PNG)
-
+![Am I Responsive screenshot](https://user-images.githubusercontent.com/110427318/196045618-ac98de30-be08-466b-bf13-141743c2578a.PNG)
 
 ## _User Experience_
 
@@ -114,7 +112,7 @@ Gitpod terminal was used to commit my code using Git and push it to Github.
 Canva was used to design colour palettes.
 - [Balsamiq](https://balsamiq.com/)
 Balsamiq was used to design the wireframes for the project.
-- Am I Responsive(https://ui.dev/amiresponsive)
+- [Am I Responsive](https://ui.dev/amiresponsive)
 Am I responsive was used to ensure the website is responsive on all devices and to showcase. 
 
 
