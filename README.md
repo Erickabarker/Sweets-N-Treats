@@ -5,7 +5,8 @@ Sweets N Treats is also a pet friendly enviroment with plenty of fresh water sta
 
 ![Banner Image]()
 ## Live Link
-[]()
+[Responsive Design ]![Am I Responsive screenshot](https://user-images.githubusercontent.com/110427318/196045618-ac98de30-be08-466b-bf13-141743c2578a.PNG)
+
 
 ## _User Experience_
 
@@ -113,6 +114,9 @@ Gitpod terminal was used to commit my code using Git and push it to Github.
 Canva was used to design colour palettes.
 - [Balsamiq](https://balsamiq.com/)
 Balsamiq was used to design the wireframes for the project.
+- Am I Responsive(https://ui.dev/amiresponsive)
+Am I responsive was used to ensure the website is responsive on all devices and to showcase. 
+
 
 ## Deployment
 
@@ -145,7 +149,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## _Testing_ 
 
-Please click here for all information about testing procedure.
+Please click [here]() for all information about testing procedure.
 
 ## Accessibility 
 I have tried to keep this website as simplistic and calming as possible. I have used soft colours and contrasts with easy to read text to suit everyone. 
