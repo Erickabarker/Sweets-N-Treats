@@ -1,10 +1,32 @@
+/* main body styling*/
 body {
     background-color: #F8FAFD;
     font-family:'Courier New', Courier, monospace;
     margin: 0 auto;
     padding:20px;
 }
+.text-center{
+    text-align:center;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+h2 {
+        text-align: center;
+        font-size: 70px;
+        color:#E6D5E0;
+}
+.text-center{
+    text-align: center;   
+}
+.text-white{
+    color:white;
+}
+.strong{
+    font-weight:bold;
+}
 
+/*Header Styline*/
 header{
     text-align: center;    
 }
@@ -20,26 +42,25 @@ header{
 p > h1{
     font-size:150%;
 }
-
-.text-center{
-    text-align:center;
+/*Nav Bar Styling*/
+.taupe-background{
+    background-color:#B4AAA9;
 }
-#success{
-    text-transform: uppercase;
-    margin: 0 auto;
-    padding: 20%;
-    font-size: 150%;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background: url(https://images.pexels.com/photos/796605/pexels-photo-796605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+nav{
+    display: block;
+    padding:1rem;
+    font-size:30px;
 }
 
-.welcome{
-    text-align:center;
-    font-size:50px;
+/*Footer*/
+footer{
+    background-color:#B7A1A6;
+    padding:10px;
+    font-size:25px;
+    height: auto;
 }
+/*Home Page */
+/*About Us*/
 .about{
     text-align: center;
     border-radius: 30px;
@@ -55,19 +76,11 @@ p > h1{
     font-weight: 400;
     text-align: center;
 }
-
-.text-uppercase{
-    text-transform: uppercase;
+/*What you will find*/
+.welcome{
+    text-align:center;
+    font-size:50px;
 }
-.taupe-background{
-    background-color:#B4AAA9;
-}
-nav{
-    display: block;
-    padding:1rem;
-    font-size:30px;
-}
-
 .card{
     border-radius: 30px;
     padding:30px;
@@ -85,10 +98,18 @@ nav{
     text-align: center;
     color: #F8FAFD;
 }
-h2 {
-    text-align: center;
-    font-size: 70px;
-    color:#E6D5E0;
+/*Menu Items*/
+.menu-box {
+	width: auto;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    font-size: 150%;
+    margin: auto;
+    padding: 20px;
+    flex-direction:column;
 }
 #milkshake{
     background-color:#FADCDC;
@@ -103,45 +124,12 @@ h2 {
     background-color:#E6D5E0;
     left:80px;
 }
-   
-.text-center{
-    text-align: center;
-    
-}
-
-.text-white{
-    color:white;
-
-}
-
-.menu-box {
-	width: auto;
-    height: auto;
-    display: inline-flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    font-size: 150%;
-    margin: auto;
-    padding: 20px;
-    flex-direction:column;
-}
-.strong{
-    font-weight:bold;
-}
 li{
     margin:10px 0px 0px 10px;
 }
 
-footer{
-    background-color:#B7A1A6;
-    padding:10px;
-    font-size:25px;
-    height: auto;
-}
-th, td{
-    padding:15px 20px 20px 20px;
-}
+/*Contact Us*/
+
 .contact{
     display: flex;
     text-align: center;
@@ -159,10 +147,11 @@ th, td{
     border:solid;
     border-color: #E6D5E0;
     text-transform:uppercase;
-    border-width:5px;
-    
+    border-width:5px; 
 }
-
+th, td{
+    padding:15px 20px 20px 20px;
+}
 .contact-details{
     height:250px;
     width:350px;
@@ -172,7 +161,6 @@ th, td{
     border-color: #9f7992;
     border-width: 5px;
 }
-
 .address{
     height:250px;
     width:350px;
@@ -183,11 +171,19 @@ th, td{
     border-width: 5px;
     
 }
-.entry-details{
+
+/*Cake Competition Page*/
+.entry-details {
     padding:10px;
     height:fit-content;
     width:auto;
     font-size:20px;
+}
+form{
+    width:70%;
+    padding:20px;
+    margin: 0 auto;
+    background-color:#ffffff;
 }
 fieldset{
     border:dotted 4px #B7A1A6 ;
@@ -195,6 +191,12 @@ fieldset{
     width: 90%;
     padding: 0.5rem;
     margin: 1.5rem 0 0 15px;
+}
+#feedback{
+    padding:15px;
+    border: dotted #B7A1A6 2px;
+    height: auto;
+    width: 70%;
 }
 #terms{
     height: 200px;
@@ -206,18 +208,6 @@ fieldset{
 }
 .acceptterms{
     padding-top:15px;
-}
-form{
-    width:70%;
-    padding:20px;
-    margin: 0 auto;
-    background-color:#ffffff;
-    }
-#feedback{
-    padding:15px;
-    border: dotted #B7A1A6 2px;
-    height: auto;
-    width: 70%;
 }
 input[type=submit]{
     margin-top:75px;
@@ -238,4 +228,17 @@ input[type=reset]{
     color:white;
     border:dotted;
     border-radius:50%;
+}
+
+/*Success Page Styling*/
+#success{
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 20%;
+    font-size: 150%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.pexels.com/photos/796605/pexels-photo-796605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
