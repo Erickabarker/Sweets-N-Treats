@@ -20,11 +20,9 @@ Sweets N Treats is also a pet friendly enviroment with plenty of fresh water sta
 
 - As a user, I would like to be able to sign up for the cake competition. 
 
-### First time visitor goals
-- 
+### First time visitor feedback
+- 'My first time visiting the Sweets N Treats website was pleasent. The website is easily accessible on my device (iphone). I was able to navigate through the website and complete the competition without any faults.
 
-### Returning customer
-- 
 ## _Design_
 
 ### Colour scheme
@@ -162,3 +160,18 @@ Responsiveness checker used to ensure the website is accessible on all formats.
 - In the future I would like to implement a nav bar down the side of the website for ease of access down the page.
 - In the future I would like to to implement a team page showcasing our staff and pet friends in the shop. 
 - In the future I would like to create different pages rather than a scrolling page. 
+
+## Credits
+
+All code was written by me. 
+
+Media images were taken from ![Pexels](https://www.pexels.com/)image website.
+Chrome developer extension for troubleshooting.
+Guidence on use of flex ![flexbox froggy](http://flexboxfroggy.com/) 
+Colour palettes from ![Canva](https://www.canva.com/colors/color-palettes/).
+
+## Acknowledgements 
+My family and boyfriend for being very supportive throughout this project and new challenge.
+Kera Cudmore for the guide on writing Readme.
+My August group classmates for being so motivational and reassuring. 
+
