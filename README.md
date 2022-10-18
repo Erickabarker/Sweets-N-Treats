@@ -3,7 +3,7 @@ Sweets N Treats is aimed at anyone who is looking for a relaxing place to reset 
 
 Sweets N Treats is also a pet friendly enviroment with plenty of fresh water stations and treats avaliable for your furry friends. 
 
-## Live Link
+## _Live Link_
 Click [Here](https://erickabarker.github.io/Sweets-N-Treats/)
 ![Am I Responsive screenshot](https://user-images.githubusercontent.com/110427318/196045618-ac98de30-be08-466b-bf13-141743c2578a.PNG)
 
@@ -30,7 +30,7 @@ Click [Here](https://erickabarker.github.io/Sweets-N-Treats/)
 
 I used [Canva](https://www.canva.com/colors/color-palette-generator/) to choose a colour scheme that would be easy to read and contrasting with background images. 
 
-![Color Scheme](images/colour chart.png)
+![colour chart](https://user-images.githubusercontent.com/110427318/196540896-ef882b8e-24e4-4d5c-b4ae-aea0d524dae7.png)
 
 ### Typography
 
@@ -89,7 +89,7 @@ The about us section is where users will be greeted with whats to follow further
 Contact us section stating how to get in contact or visit us?
 ![Contact us + footer screenshot](https://user-images.githubusercontent.com/110427318/196042616-288523d2-425b-4bb0-b1ae-a3220f3d2c71.PNG)
 
-## Technologies Used
+## _Technologies Used_
 
 ### Languages
 
@@ -115,9 +115,9 @@ Balsamiq was used to design the wireframes for the project.
 Am I responsive was used to ensure the website is responsive on all devices and to showcase. 
 
 
-## Deployment
+## _Deployment_
 
-### How to deploy a website
+## How to deploy a website
 
 1. In the browser navigate to GitHub.
 2. Click on 'Settings' on the topbar.
@@ -127,14 +127,14 @@ Am I responsive was used to ensure the website is responsive on all devices and 
 6. Click 'Save'.
 7. Now your Repository is live. 
 
-### How to fork the website
+## How to fork the website
 
 1. In the browser navigate to GitHub
 2. Click 'Fork' button at the top right of the page.
 
 Live link to the website can be found [here](https://erickabarker.github.io/Sweets-N-Treats/)
 
-### How to deploy locally
+## How to deploy locally
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
@@ -148,7 +148,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 Please click [here](https://github.com/Erickabarker/Sweets-N-Treats/blob/main/testing.md) for all information about testing procedure.
 
-## Accessibility 
+## _Accessibility _
 I have tried to keep this website as simplistic and calming as possible. I have used soft colours and contrasts with easy to read text to suit everyone. 
 
 The nav bar allows easy access to each part of the home page website. 
@@ -162,17 +162,18 @@ Responsiveness checker used to ensure the website is accessible on all formats.
 - In the future I would like to to implement a team page showcasing our staff and pet friends in the shop. 
 - In the future I would like to create different pages rather than a scrolling page. 
 
-## Credits
+## _Credits_
 
 All code was written by me. 
 
-Media images were taken from [Pexels](https://www.pexels.com/)image website.
-Chrome developer extension for troubleshooting.
-Guidence on use of flex [flexbox froggy](http://flexboxfroggy.com/) 
-Colour palettes from [Canva](https://www.canva.com/colors/color-palettes/).
+- Media images were taken from [Pexels](https://www.pexels.com/) images website.
+- Chrome developer extension for troubleshooting.
+- Guidence on use of flex [flexbox froggy](http://flexboxfroggy.com/) 
+- Colour palettes from [Canva](https://www.canva.com/colors/color-palettes/).
 
-## Acknowledgements 
+## _Acknowledgements_
 My family and boyfriend for being very supportive throughout this project and new challenge.
 Kera Cudmore for the guide on writing Readme.
 My August group classmates for being so motivational and reassuring. 
 
+My [Linkdin](linkedin.com/in/ericka-barker-4b0860241)
