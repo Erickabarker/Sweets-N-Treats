@@ -172,8 +172,9 @@ All code was written by me.
 - Colour palettes from [Canva](https://www.canva.com/colors/color-palettes/).
 
 ## _Acknowledgements_
-My family and boyfriend for being very supportive throughout this project and new challenge.
-Kera Cudmore for the guide on writing Readme.
-My August group classmates for being so motivational and reassuring. 
+- My family and boyfriend for being very supportive throughout this project and new challenge.
+- Harry an adopted mentor for all his guidence and patience throughout my project.
+- Kira Cudmore for the guide on writing Readme.
+- My August group classmates for being so motivational and reassuring. 
 
 My [Linkdin](linkedin.com/in/ericka-barker-4b0860241)
