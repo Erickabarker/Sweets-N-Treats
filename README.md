@@ -4,6 +4,7 @@ Sweets N Treats is aimed at anyone who is looking for a relaxing place to reset 
 Sweets N Treats is also a pet friendly enviroment with plenty of fresh water stations and treats avaliable for your furry friends. 
 
 ## Live Link
+Click [Here](https://erickabarker.github.io/Sweets-N-Treats/)
 ![Am I Responsive screenshot](https://user-images.githubusercontent.com/110427318/196045618-ac98de30-be08-466b-bf13-141743c2578a.PNG)
 
 ## _User Experience_
@@ -141,11 +142,11 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Erickabarker/Sweets-N-Treats)
+![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Erickabarker/Sweets-N-Treats)
 
 ## _Testing_ 
 
-Please click [here]() for all information about testing procedure.
+Please click [here](https://github.com/Erickabarker/Sweets-N-Treats/blob/main/testing.md) for all information about testing procedure.
 
 ## Accessibility 
 I have tried to keep this website as simplistic and calming as possible. I have used soft colours and contrasts with easy to read text to suit everyone. 
@@ -165,10 +166,10 @@ Responsiveness checker used to ensure the website is accessible on all formats.
 
 All code was written by me. 
 
-Media images were taken from ![Pexels](https://www.pexels.com/)image website.
+Media images were taken from [Pexels](https://www.pexels.com/)image website.
 Chrome developer extension for troubleshooting.
-Guidence on use of flex ![flexbox froggy](http://flexboxfroggy.com/) 
-Colour palettes from ![Canva](https://www.canva.com/colors/color-palettes/).
+Guidence on use of flex [flexbox froggy](http://flexboxfroggy.com/) 
+Colour palettes from [Canva](https://www.canva.com/colors/color-palettes/).
 
 ## Acknowledgements 
 My family and boyfriend for being very supportive throughout this project and new challenge.
