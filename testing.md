@@ -55,11 +55,11 @@ I recieved positive feedback from all my family, none of my family members had a
 
 - Html validator confirmed no errors in main page code. 
 ![W3 Html Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ferickabarker.github.io%2FSweets-N-Treats%2F)
-
-![Html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ferickabarker.github.io%2FSweets-N-Treats%2F)
+![Html validator](https://user-images.githubusercontent.com/110427318/196520882-eff6134a-cef7-4ed1-bd43-0c637204b41e.PNG)
 
 - Html validator confirmed no errors in cake competition page code. 
 ![Html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ferickabarker.github.io%2FSweets-N-Treats%2Fcake-competition.html)
+![Cake competition validator screenshot](https://user-images.githubusercontent.com/110427318/196520834-5a9ebc62-ddc2-4f23-a10e-4b8a2210cf94.PNG)
 
 - Css Validator confirmed no errors in code 
 ![Css W3 Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ferickabarker.github.io%2FSweets-N-Treats%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
