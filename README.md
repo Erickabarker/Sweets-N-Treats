@@ -146,9 +146,9 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## _Testing_ 
 
-Please click [here](https://github.com/Erickabarker/Sweets-N-Treats/blob/main/testing.md) for all information about testing procedure.
+Please click [here](https://github.com/Erickabarker/Sweets-N-Treats/blob/b42e73ad0f88a5b6b1a0a5ad285897c8929aa4f3/TESTING.MD) for all information about testing procedure.
 
-## _Accessibility _
+## _Accessibility_
 I have tried to keep this website as simplistic and calming as possible. I have used soft colours and contrasts with easy to read text to suit everyone. 
 
 The nav bar allows easy access to each part of the home page website. 
