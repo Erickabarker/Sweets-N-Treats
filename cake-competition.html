@@ -46,7 +46,7 @@
                 <label for="age" class="strong">Age</label>
         
                 <select id="age" name="age" required>
-                    <option value="">Under 18</option>
+                    <option value="0-18">Under 18</option>
                     <option value="18-29s">18-29</option>
                     <option value="30s">30-39</option>
                     <option value="40s">40-49</option>
@@ -92,16 +92,16 @@
         <!--Favourite traybake selection-->
                 <p class="strong">What is your favourite traybake?</p>
         
-                    <input id="mars-bar-radio" name="mars-tray-bake" value="mars-bar" type="radio" required>
+                    <input id="mars-bar-radio" name="mars-tray-bake" value="mars-bar" type="radio">
 			        <label for="mars-bar-radio">Mars Bar Krispie</label>
 
-			        <input id="old-school-radio" name="old-school-tray" value="old-school" type="radio" required>
+			        <input id="old-school-radio" name="old-school-tray" value="old-school" type="radio">
 			        <label for="old-school-radio">Old School Sponge</label>
 
-			        <input id="millionaire-radio" name="millionair-tray-bake" value="millionaire" type="radio" required>
+			        <input id="millionaire-radio" name="millionair-tray-bake" value="millionaire" type="radio">
 			        <label for="millionaire-radio">Millionaire Shortbread</label>
 
-			        <input id="rocky-road-radio" name="rocky-road-tray" value="rocky-road" type="radio" required>
+			        <input id="rocky-road-radio" name="rocky-road-tray" value="rocky-road" type="radio">
 			        <label for="rocky-road-radio">Rocky Road</label>
             <!--Favourite cupcake selection-->
                 <p class="strong">Which of our Sweets N Treats cupcakes do you love?</p>
@@ -216,13 +216,28 @@
     <!--Footer with social media links-->    
             <footer class="text-center">
                 <span>Find Us On:</span>
-
-                <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
-		        <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
-		        <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
-
-                <p>Copyright @ Sweets N Treats 2022</p>
-
-            </footer>    
+                <br>
+                <ul class="social-networks">
+                    <li>
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">
+                                <i class="fa-brands fa-facebook" aria-hidden="true">
+                                </i></a>
+                    </li>
+                    <li>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">
+                                <i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">
+                                <i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                                <p>Copyright @ Sweets N Treats 2022</p>
+                                <p>Developed by:
+                            <a href="https://github.com/Erickabarker/Sweets-N-Treats" target="_blank" aria-label="Find me on github(link opens to new tab">Ericka Barker</a>
+                                </p>
+                </ul>
+                        </footer> 
+                        <script src="https://kit.fontawesome.com/d97d972b02.js" crossorigin="anonymous"></script>
+                  
     </body>
 </html>
