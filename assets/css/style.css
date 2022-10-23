@@ -118,8 +118,7 @@ footer{
     align-items: stretch;
     flex-wrap: wrap;
     font-size: 2rem;
-    margin: auto;
-    padding: 20px;
+    padding: 10px;
     flex-direction:column;
     border-radius: 30px;
     border-bottom-style: inset;
@@ -163,9 +162,6 @@ li{
     border-color: #E6D5E0;
     text-transform:uppercase;
     border-width:5px; 
-}
-th, td{
-    padding:15px 20px 20px 20px;
 }
 .contact-details{
     height:250px;
