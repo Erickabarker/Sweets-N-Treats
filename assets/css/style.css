@@ -13,7 +13,7 @@ body {
 }
 h2 {
         text-align: center;
-        font-size: 70px;
+        font-size: 3rem;
         color:#E6D5E0;
 }
 .text-center{
@@ -34,10 +34,11 @@ a {
 header{
     text-align: center;
     color:snow;
+    border-radius: 30px;
 }
 
 .heading{
-        font-size:250%;
+        font-size:2rem;
         font-weight: bold;
         background: url('https://images.pexels.com/photos/7110090/pexels-photo-7110090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
         margin:0px;
@@ -54,16 +55,19 @@ p > h1{
 nav{
     display: block;
     padding:1rem;
-    font-size:30px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    border-top-style: outset;
 }
 
 /*Footer*/
 footer{
     background-color:#B7A1A6;
     padding:10px;
-    font-size:25px;
+    font-size:1.5rem;
     height: auto;
     color:snow;
+    border-radius: 30px;
 }
 .social-networks >li {
         display: inline;
@@ -81,7 +85,7 @@ footer{
     color: #fffdfd;
     border-radius:30px;
     margin: 20px;   
-    font-size:200%;
+    font-size:1.5rem;
     font-weight: 400;
     text-align: center;
 }
@@ -103,40 +107,40 @@ footer{
 #offers{
     border-radius:30px;
     margin: auto;   
-    font-size:50px;
+    font-size:2rem;
     text-align: center;
     color: #F8FAFD;
 }
 /*Menu Items*/
 .menu-box {
-	width: auto;
-    height: auto;
-    display: inline-flex;
+	display: inline-flex;
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    font-size: 150%;
+    font-size: 2rem;
     margin: auto;
     padding: 20px;
     flex-direction:column;
+    border-radius: 30px;
 }
 #milkshake{
-    background-color:#E6D5E0;
-    right:80px
-   
+    background-color:#E6D5E0; 
 }
 #cupcake{
     background-color:#B7A1A6;
 }
 
 #tray-bake{
-    background-color:#E6D5E0;
-    left:80px;
+    background-color:#E6D5E0;    
 }
 li{
     margin:10px 0px 0px 10px;
 }
-
+@media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
 /*Contact Us*/
 
 .contact{
@@ -152,7 +156,7 @@ li{
     height:320px;
     width:300px;
     padding:30px;
-    font-size:22px;
+    font-size:1.5rem;
     border:solid;
     border-color: #E6D5E0;
     text-transform:uppercase;
@@ -165,7 +169,7 @@ th, td{
     height:250px;
     width:350px;
     padding:30px;
-    font-size:25px;
+    font-size:1.5rem;
     border:solid;
     border-color: #9f7992;
     border-width: 5px;
@@ -174,7 +178,7 @@ th, td{
     height:250px;
     width:350px;
     padding:30px;
-    font-size:25px; 
+    font-size:1.5rem; 
     border:solid;
     border-color: #E6D5E0;
     border-width: 5px;
