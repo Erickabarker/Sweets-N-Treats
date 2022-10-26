@@ -69,8 +69,8 @@ footer{
     color:snow;
     border-radius: 30px;
 }
-.social-networks >li {
-        display: inline;
+.social-networks > li{
+        display: inline ;
 }
 /*Home Page */
 /*About Us*/
