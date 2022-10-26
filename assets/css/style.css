@@ -115,6 +115,7 @@ footer{
     background-color:#86297ff6;
     background-image: url('https://images.pexels.com/photos/6174874/pexels-photo-6174874.jpeg?auto=compress&cs=tinysrgb&w=600');
     background-position: center;
+    border-bottom-style: inset;
 }
 
 #offers{
@@ -127,15 +128,18 @@ footer{
 
 /*Menu Items*/
 .menu-box {
-	display: inline-flex;
-    justify-content:space-around;
+    display: inline-flex;
+    height: 420px;
+    width: 400px;
+    justify-content: space-around;
     align-items: stretch;
     flex-wrap: wrap;
     font-size: 2rem;
     padding: 10px;
-    flex-direction:column;
+    flex-direction: column;
     border-radius: 30px;
-    border-bottom-style: inset;
+    border-style: inset;
+    align-content: flex-start;
 }
 
 #milkshake, #tray-bake{
@@ -144,6 +148,12 @@ footer{
 
 #cupcake{
     background-color:#7e5870;
+}
+
+ul {
+
+    list-style-type: none;
+    display: flow-root;
 }
 
 li{
