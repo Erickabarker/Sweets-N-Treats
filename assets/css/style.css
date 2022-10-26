@@ -1,39 +1,45 @@
 /* main body styling*/
 body {
-    background-color: #F8FAFD;
+    background-color: white;
     font-family:'Courier New', Courier, monospace;
     margin: 0 auto;
-    padding:20px;
 }
+
 .text-center{
     text-align:center;
 }
+
 .text-uppercase{
     text-transform: uppercase;
 }
+
 h2 {
         text-align: center;
         font-size: 3rem;
-        color:#E6D5E0;
+        color:#7e5870;
 }
+
 .text-center{
     text-align: center;   
 }
+
 .text-white{
     color:white;
 }
+
 .strong{
     font-weight:bold;
 }
+
 a {
-    color:snow;
+    color:white;
 
 }
 
 /*Header Styline*/
 header{
     text-align: center;
-    color:snow;
+    color:#9f7992;
     border-radius: 30px;
 }
 
@@ -44,14 +50,17 @@ header{
         margin:0px;
         padding-top: 10px;
         padding-bottom:10px;
-    }
+}
+
 p > h1{
     font-size:150%;
 }
+
 /*Nav Bar Styling*/
-.taupe-background{
-    background-color:#B4AAA9;
+.nav-background{
+    background-color:#7e5870;
 }
+
 nav{
     display: block;
     padding:1rem;
@@ -62,16 +71,18 @@ nav{
 
 /*Footer*/
 footer{
-    background-color:#B7A1A6;
+    background-color:#7e5870;
     padding:10px;
     font-size:1.5rem;
     height: auto;
-    color:snow;
+    color:white;
     border-radius: 30px;
 }
+
 .social-networks > li{
         display: inline ;
 }
+
 /*Home Page */
 /*About Us*/
 .about{
@@ -79,8 +90,9 @@ footer{
     border-radius: 30px;
     padding:30px;
     margin:50px 200px 50px 200px ;
-    background-color:#c7b0aea6;
+    background-color:#86297ff6;
 }
+
 .info{
     color: #fffdfd;
     border-radius:30px;
@@ -89,21 +101,22 @@ footer{
     font-weight: 400;
     text-align: center;
 }
+
 /*What you will find*/
 .welcome{
     text-align:center;
     font-size:50px;
 }
+
 .card{
     border-radius: 30px;
     padding:30px;
     margin:auto;
-    background-color:#B4AAA9;
+    background-color:#86297ff6;
     background-image: url('https://images.pexels.com/photos/6174874/pexels-photo-6174874.jpeg?auto=compress&cs=tinysrgb&w=600');
     background-position: center;
-    background-blend-mode: soft-light;
-
 }
+
 #offers{
     border-radius:30px;
     margin: auto;   
@@ -111,6 +124,7 @@ footer{
     text-align: center;
     color: #F8FAFD;
 }
+
 /*Menu Items*/
 .menu-box {
 	display: inline-flex;
@@ -123,24 +137,24 @@ footer{
     border-radius: 30px;
     border-bottom-style: inset;
 }
-#milkshake{
-    background-color:#E6D5E0; 
-}
-#cupcake{
-    background-color:#B7A1A6;
+
+#milkshake, #tray-bake{
+    background-color:#86297ff6; 
 }
 
-#tray-bake{
-    background-color:#E6D5E0;    
+#cupcake{
+    background-color:#7e5870;
 }
+
 li{
     margin:10px 0px 0px 10px;
 }
+
 @media screen and (max-width: 600px) {
     .row {
       flex-direction: column;
     }
-  }
+}
 /*Contact Us*/
 
 .contact{
@@ -153,16 +167,7 @@ li{
     align-items: stretch;
     border-bottom-style: inset;
 }
-.opening {
-    height:320px;
-    width:300px;
-    padding:30px;
-    font-size:1.5rem;
-    border:solid;
-    border-color: #E6D5E0;
-    text-transform:uppercase;
-    border-width:5px; 
-}
+
 .contact-details{
     height:250px;
     width:350px;
@@ -172,15 +177,14 @@ li{
     border-color: #9f7992;
     border-width: 5px;
 }
-.address{
-    height:250px;
-    width:350px;
-    padding:30px;
-    font-size:1.5rem; 
-    border:solid;
-    border-color: #E6D5E0;
-    border-width: 5px;
-    
+
+#address, #opening {
+    border-color:#86297ff6;
+}
+
+#opening {
+    text-align-last: center;
+    display: grid;
 }
 
 /*Cake Competition Page*/
@@ -190,25 +194,32 @@ li{
     width:auto;
     font-size:20px;
 }
+
+.name{
+    display: inline;
+}
+
 form{
     width:70%;
     padding:20px;
     margin: 0 auto;
     background-color:#ffffff;
 }
+
 fieldset{
     border:dotted 4px #B7A1A6 ;
     height: auto;
     width: 90%;
-    padding: 0.5rem;
     margin: 1.5rem 0 0 15px;
 }
+
 #feedback{
     padding:15px;
     border: dotted #B7A1A6 2px;
     height: auto;
     width: 70%;
 }
+
 #terms{
     height: 200px;
     width: 90%;
@@ -217,9 +228,11 @@ fieldset{
     border: 4px dotted #B4AAA9;
     overflow: scroll;
 }
+
 .acceptterms{
     padding-top:15px;
 }
+
 input[type=submit]{
     margin-top:75px;
     margin-bottom:0.5rem;
@@ -230,6 +243,7 @@ input[type=submit]{
     border:dotted;
     border-radius:50%; 
 }
+
 input[type=reset]{
     margin-top: 75px;
     margin-top:0.5rem;
@@ -252,7 +266,8 @@ input[type=reset]{
     justify-content: center;
     align-items: center;
     background: url(https://images.pexels.com/photos/796605/pexels-photo-796605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
- }
+}
+
 input[type=button]{
     margin-top: 0.5rem;
     padding: 10px;
@@ -261,4 +276,4 @@ input[type=button]{
     color: #f8fafd;
     border: dotted;
     border-radius: 50%;
- }
+}
