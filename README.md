@@ -5,7 +5,7 @@ Sweets N Treats is also a pet friendly enviroment with plenty of fresh water sta
 
 ## _Live Link_
 Click [Here](https://erickabarker.github.io/Sweets-N-Treats/)
-![Am I Responsive screenshot](https://user-images.githubusercontent.com/110427318/196045618-ac98de30-be08-466b-bf13-141743c2578a.PNG)
+![Am I responsive screenshot](https://user-images.githubusercontent.com/110427318/198843743-a88cfc4b-a3a3-461f-95a0-e7185b1a9e7f.PNG)
 
 ## _User Experience_
 
@@ -62,7 +62,8 @@ These elements all have responsive design.
 ### Nav Menu
 
 The nav menu appears on every page at the top allowing easy navigation throughout the website.
-![Nav menu](https://user-images.githubusercontent.com/110427318/196043239-e7110172-269c-46ab-b987-41a1778a8b0c.PNG)
+![Nav menu screenshot](https://user-images.githubusercontent.com/110427318/198851902-31d2b635-0cc1-44f2-9ce7-ffcf3493ac6c.PNG)
+
 
 ### Footer
 
@@ -72,22 +73,23 @@ The footer also has a link to my personal github page.
 ### Home Page
 
 This is the page you will find when opening the link to live website 
-![Home screenshot](https://user-images.githubusercontent.com/110427318/196042398-99b72ab4-ead1-4a5e-aafb-f1d649f09c72.PNG)
+![Homepage screenshot](https://user-images.githubusercontent.com/110427318/198851723-9b5ba65d-3abe-4f55-906e-1a2babf71dc7.PNG)
 
 ### Menu 
 
 Here is the menu page the user will be taken too when clicking menu on the nav bar. 
-![Menu screenshot](https://user-images.githubusercontent.com/110427318/196042470-b5cf041b-c105-4360-97b7-3c6d15e5651f.PNG)
-
-### About us 
-
-The about us section is where users will be greeted with whats to follow further down the page 
-![About us screenshot](https://user-images.githubusercontent.com/110427318/196042576-8771d864-986e-4fe4-99f2-324e65077107.PNG)
+![Menu screenshot](https://user-images.githubusercontent.com/110427318/198851730-c7478548-0d18-443a-b64a-2f9f1961c2c0.PNG)
 
 ### Contact Us
 
 Contact us section stating how to get in contact or visit us?
-![Contact us + footer screenshot](https://user-images.githubusercontent.com/110427318/196042616-288523d2-425b-4bb0-b1ae-a3220f3d2c71.PNG)
+![Contact us screenshot](https://user-images.githubusercontent.com/110427318/198851756-61514680-fda7-450f-bc6b-7a84ebb1eb9b.PNG)
+
+### Cake Competition Entry Page 
+
+Below is the cake entry competition page with the winner receiving £25 spend. 
+![Cake Competition form screenshot](https://user-images.githubusercontent.com/110427318/198851824-843d8db2-6c16-4f28-a9e8-9d4831fa9086.PNG)
+
 
 ## _Technologies Used_
 
@@ -174,6 +176,7 @@ All code was written by me.
 ## _Acknowledgements_
 - My family and boyfriend for being very supportive throughout this project and new challenge.
 - Harry an adopted mentor for all his guidence and patience throughout my project.
+- Gaff for his excellent guidence as my mentor in the last 2 weeks before submission. 
 - Kira Cudmore for the guide on writing Readme.
 - My August group classmates for being so motivational and reassuring. 
 
