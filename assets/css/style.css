@@ -39,7 +39,7 @@ a {
 /*Header Styline*/
 header{
     text-align: center;
-    color:#9f7992;
+    color:#86297ff6;
     border-radius: 30px;
 }
 
@@ -163,8 +163,9 @@ li{
 @media screen and (max-width: 600px) {
     .row {
       flex-direction: column;
-    }
+       }
 }
+
 /*Contact Us*/
 
 .contact{
@@ -292,4 +293,5 @@ input[type=button] {
     background-size: cover;
     height: 100%;
     width: 100%;
+    color: #86297ff6;
 }
