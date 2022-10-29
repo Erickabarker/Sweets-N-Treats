@@ -83,6 +83,10 @@ footer{
         display: inline ;
 }
 
+ul.social-networks {
+    padding: inherit;
+}
+
 /*Home Page */
 /*About Us*/
 .about{
@@ -130,11 +134,11 @@ footer{
 .menu-box {
     display: inline-flex;
     height: 420px;
-    width: 400px;
+    width: 363px;
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: wrap;
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding: 10px;
     flex-direction: column;
     border-radius: 30px;
@@ -165,6 +169,7 @@ li{
       flex-direction: column;
        }
 }
+
 
 /*Contact Us*/
 
