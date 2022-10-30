@@ -29,8 +29,7 @@ Click [Here](https://erickabarker.github.io/Sweets-N-Treats/)
 ### Colour scheme
 
 I used [Canva](https://www.canva.com/colors/color-palette-generator/) to choose a colour scheme that would be easy to read and contrasting with background images. 
-
-![colour chart](https://user-images.githubusercontent.com/110427318/196540896-ef882b8e-24e4-4d5c-b4ae-aea0d524dae7.png)
+![Colour grid for readme](https://user-images.githubusercontent.com/110427318/198855719-c7e5ae5e-9c71-4790-aa28-48a414fbff71.jpeg)
 
 ### Typography
 
@@ -115,6 +114,7 @@ Canva was used to design colour palettes.
 Balsamiq was used to design the wireframes for the project.
 - [Am I Responsive](https://ui.dev/amiresponsive)
 Am I responsive was used to ensure the website is responsive on all devices and to showcase. 
+- Unicorn Revealer Chrome Extension was used to solve bugs
 
 
 ## _Deployment_
@@ -162,7 +162,6 @@ Responsiveness checker used to ensure the website is accessible on all formats.
 
 - In the future I would like to implement a nav bar down the side of the website for ease of access down the page.
 - In the future I would like to to implement a team page showcasing our staff and pet friends in the shop. 
-- In the future I would like to create different pages rather than a scrolling page. 
 
 ## _Credits_
 
@@ -177,7 +176,7 @@ All code was written by me.
 - My family and boyfriend for being very supportive throughout this project and new challenge.
 - Harry an adopted mentor for all his guidence and patience throughout my project.
 - Gaff for his excellent guidence as my mentor in the last 2 weeks before submission. 
-- Kira Cudmore for the guide on writing Readme.
+- Kera Cudmore for the guide on writing Readme.
 - My August group classmates for being so motivational and reassuring. 
 
-My [Linkdin](linkedin.com/in/ericka-barker-4b0860241)
+My [Linkedin](linkedin.com/in/ericka-barker-4b0860241)
