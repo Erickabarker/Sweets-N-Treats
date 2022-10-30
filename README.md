@@ -176,7 +176,7 @@ All code was written by me.
 - My family and boyfriend for being very supportive throughout this project and new challenge.
 - Harry an adopted mentor for all his guidence and patience throughout my project.
 - Gaff for his excellent guidence as my mentor in the last 2 weeks before submission. 
-- Kira Cudmore for the guide on writing Readme.
+- Kera Cudmore for the guide on writing Readme.
 - My August group classmates for being so motivational and reassuring. 
 
-My [Linkdin](linkedin.com/in/ericka-barker-4b0860241)
+My [Linkedin](linkedin.com/in/ericka-barker-4b0860241)
